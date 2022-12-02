@@ -36,7 +36,7 @@ Then("I see that at least one search result", async () => {
 })
 
 Given("I open Today Best Deals tab", async () => {
-  const dealsTab = await $('#trendingBanner_735784');
+  const dealsTab = await $('#trendingBanner_720202');
   await expect(dealsTab).toBeExisting();
   await dealsTab.click();
 })
